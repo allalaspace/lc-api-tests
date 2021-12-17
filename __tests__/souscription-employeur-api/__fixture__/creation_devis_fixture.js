@@ -1,0 +1,66 @@
+module.exports = () => {
+  return JSON.stringify({
+    idUtilisateur: 751,
+    adresse: {
+      adresseLigne1: "11 RUE DE L'ORME",
+      adresseLigne2: '',
+      adresseLigne3: '',
+      codePostal: '91410',
+      ville: 'ROINVILLE',
+      pays: 'FRANCE',
+    },
+    besoins: [],
+    formuleSocleRecommandee: {
+      codeFormule: 'F_JAJ_FSS_0001',
+      versionFormule: 1,
+    },
+    contact: {
+      email: 'claudette.b@projetlucie.com',
+      nom: 'Poulin',
+      prenom: 'David',
+    },
+    siret: '83279711200014',
+    couvertureSouhaitee: '',
+    idConventionCollective: '1486',
+    ageMoyen: '36',
+    raisonSociale: 'DAYVOLY STUDIO',
+    idDevisCommercial: null,
+    cguAcceptees: true,
+    offres: [
+      {
+        montantForGood: 0,
+        tauxPatronal: 50,
+        cotisationEmployeurConjoint: false,
+        cotisationEmployeurEnfant: true,
+        formuleSocle: {
+          codeFormule: 'F_JAJ_FSS_0001',
+          versionFormule: 1,
+          cotisationAdherentConjoint: 65.132,
+          cotisationAdherentEnfant: 61.704,
+          cotisationFamille: 109.696,
+          cotisationAdherentSeul: 37.708,
+          recommandee: true,
+        },
+        formuleSurco1: null,
+        formuleSurco2: null,
+      },
+      {
+        montantForGood: 0,
+        tauxPatronal: 50,
+        cotisationEmployeurConjoint: false,
+        cotisationEmployeurEnfant: true,
+        formuleSocle: {
+          codeFormule: 'F_JAJ_FSS_0002',
+          versionFormule: 1,
+          cotisationAdherentConjoint: 65.132,
+          cotisationAdherentEnfant: 61.704,
+          cotisationFamille: 109.696,
+          cotisationAdherentSeul: 37.708,
+          recommandee: true,
+        },
+        formuleSurco1: null,
+        formuleSurco2: null,
+      },
+    ],
+  });
+};
